@@ -9,7 +9,6 @@ public class FifteenPuzzleNodes : Interractable
 
     public override void OnPlayerInterract()
     {
-        Debug.Log("selaaam");
         _fifteenPuzzle.CheckAvailability(gameObject, location);
     }
 }
