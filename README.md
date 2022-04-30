@@ -8,7 +8,7 @@
 
 - Ayşenur Şeyda Bilgü: Product Owner
 - Elif Yetkin: Game Artist
-- Emine Beyza Eroğlu: Scrum Master
+- Emine Beyza Eroglu: Scrum Master
 - Mehmet Safa Katırcıoğlu: Developer
 - Yavuz Güleşen: Developer
 
