@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 
 public class Drawer : Interractable
@@ -11,12 +12,12 @@ public class Drawer : Interractable
     {
         if (!isDrawerOpen)
         {
-            drawerTransform.position += transform.forward / 2;
+            drawerTransform.DOMove(drawerTransform.position - drawerTransform.forward / 2, 0.5f);
             isDrawerOpen = true;
         }
         else
         {
-            drawerTransform.position -= transform.forward / 2;
+            drawerTransform.DOMove(drawerTransform.position + drawerTransform.forward / 2, 0.5f);
             isDrawerOpen = false;
         }
     }
