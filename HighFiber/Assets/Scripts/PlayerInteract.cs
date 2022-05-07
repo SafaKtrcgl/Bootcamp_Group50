@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -43,7 +44,7 @@ public class PlayerInteract : MonoBehaviour
     {
         if (onMyHand)
         {
-            onMyHand.transform.position = Vector3.Lerp(onMyHand.transform.position, handPosition.transform.position, 1f);
+            onMyHand.transform.DOMove(handPosition.transform.position, 0.5f);
         }
     }
 
