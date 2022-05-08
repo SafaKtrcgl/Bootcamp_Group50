@@ -63,7 +63,11 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
   ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
 
 - **Sprint Review**: 
-Alınan kararlar: Veritabanı oluşturması email ile toplanacak veriler için gerekli görülmüştür. Fakat bir yandan da veritabanı form sayfası için gerekli olmamıştır. O sebeple PBI bir sonraki sprint'e aktarılmıştır. Çıkan ürünün çalışmasında ve testlerinde bir problem görülmemiştir. Ekstra koyulması gereken özellikler belirlenmiştir. Sprint Review katılımcıları: ......
+Alınan kararlar: 
+   Modelleme sürecinin başlangıcında modellerin kendi içinde tasarımsal tutarlılıklarını ve scale oranlarını ayarlama konusunda problem yaşanmıştır çünkü ortak belirlenmesi gereken bazı konularda yoğunluklar nedeniyle takım buluşmalarında zorluklar yaşanmıştır. Çözüm olarak ise, ekip üyeleriyle hem blender hem de unity içerisinde geçerli olacak bir scale oranı belirlenmiş ve takım içi iletişim arttırılmıştır. 
+   Ürünlerin çalışma ve test aşamalarında bir problem yaşanmamıştır. Bir sonraki sprintte oyunun design genre’sına karar verilmesine ve 2d sketchler üzerinden 3d tasarıma başlanmasına karar verilmiştir.
+   Ayrıca 2.-3. sprintte environment ve level tasarımını hızlandırıp, kendi modellerimizle donatmak için hızlanılması gerektiği konuşulmuştur.    
+   Sprint Review katılımcıları: Ayşenur Şeyda Bilgü, Elif Yetkin, Emine Beyza Eroğlu, Mehmet Safa Katırcıoğlu, Yavuz Güleşen.
 
 - **Sprint Retrospective:**
   - Project management programlarının daha efektif kullanmalı.
