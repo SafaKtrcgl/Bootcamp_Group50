@@ -48,9 +48,7 @@
 
 - **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 750 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in 230 puan ile başlaması gerektiğine karar verildi.
 
-- **Backlog düzeni ve Story seçimleri**: Backlog'umuz ilk yapılacak story'lere göre düzenlenmiştir. Sprint başına tahmin edilen puan sayısını geçmeyecek şekilde sıradan seçimler yapılmaktadır. Story başına çıkan tahmin puanı, toplam puanın yarısından az tutulmuştur. 
-
-Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
+- **Backlog düzeni ve Story seçimleri**: Backlog'umuz belirlediğimiz storylere göre düzenlenmiştir. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve işler bu bloklar kullanılarak takip edilmiştir. Yapılacak işlere öncelik sırasına göre karar verilmiştir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının Discord, Whatsapp ve Google Meet üzerinden yapılmasına karar verilmiştir. Word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
 (https://docs.google.com/document/d/1vGqFczo1RR3U6vE5qVhFaj_4dGfDfOQ_/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true)
