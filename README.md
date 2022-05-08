@@ -8,7 +8,7 @@
 
 - Ayşenur Şeyda Bilgü: Product Owner
 - Elif Yetkin: Game Artist
-- Emine Beyza Eroglu: Scrum Master
+- Emine Beyza Eroğlu: Scrum Master
 - Mehmet Safa Katırcıoğlu: Developer
 - Yavuz Güleşen: Developer
 
@@ -52,7 +52,8 @@
 
 Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözüken kırmızı item'lar yapılacak işleri (task) gösterirken, mavi item'lar story'leri temsil etmektedir.
 
-- **Daily Scrum**: Daily Scrum toplantılarının zamansal sebeplerden ötürü Slack üzerinden yapılmasına karar verilmiştir. Daily Scrum toplantısı örneği jpeg veya word olarak Readme'de tarafımızdan paylaşılmaktadır: [Sprint 1 Daily Scrum Chats](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/DailyScrumMeetingNotesSprint1.docx?raw=true)
+- **Daily Scrum**: Daily Scrum toplantılarının Discord, Whatsapp ve Google Meet üzerinden yapılmasına karar verilmiştir. Word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
+- (https://docs.google.com/document/d/1vGqFczo1RR3U6vE5qVhFaj_4dGfDfOQ_/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true)
 
 - **Sprint board update**: Sprint board screenshotları: 
 ![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/main/ProjectManagement/Sprint1Documents/backlog1.png) 
