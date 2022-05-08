@@ -59,9 +59,7 @@ Story'ler yapılacak işlere (task'lere) bölünmüştür. Miro Board'da gözük
 (https://docs.google.com/document/d/1Xj4P2UkRsksIc9sdmn0tkVmRRNyHX6kb/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true)
 
 - **Ürün Durumu**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss1.png?raw=true)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/BootcampScrumTemplate/blob/main/ProjectManagement/Sprint1Documents/productss2.png?raw=true)
-
+(https://docs.google.com/document/d/1-9IxhlkLTkdtL2B224Fhd5KfFmLvLQxq/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true)
 - **Sprint Review**: 
 Alınan kararlar: 
    Modelleme sürecinin başlangıcında modellerin kendi içinde tasarımsal tutarlılıklarını ve scale oranlarını ayarlama konusunda problem yaşanmıştır çünkü ortak belirlenmesi gereken bazı konularda yoğunluklar nedeniyle takım buluşmalarında zorluklar yaşanmıştır. Çözüm olarak ise, ekip üyeleriyle hem blender hem de unity içerisinde geçerli olacak bir scale oranı belirlenmiş ve takım içi iletişim arttırılmıştır. 
