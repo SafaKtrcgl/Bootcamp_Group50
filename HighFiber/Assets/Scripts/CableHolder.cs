@@ -6,19 +6,22 @@ using UnityEngine;
 
 public class CableHolder : Interractable
 {
-    public GameObject currentCable;
+    [SerializeField]private float multiplierValue;
+    public GameObject currentCable = null;
     [SerializeField] private PlayerInteract playerInteract;
     [SerializeField] private Material material;
     private Vector3 _holdPosition = new Vector3(0f, 0.75f, 0f);
+    [SerializeField] private ScreenDisplay screenDisplay;
 
     private void Start()
     {
-        ResetHolder();
+        material.color = Color.white;
     }
 
     public void ResetHolder()
     {
         currentCable = null;
+        screenDisplay.AddjustDisplayScreen(material.color * -multiplierValue);
         material.color = Color.white;
     }
 
@@ -36,7 +39,8 @@ public class CableHolder : Interractable
             currentCable.GetComponent<Cable>()._cableHolder = this;
             currentCable.transform.DOMove(transform.position + Vector3.up * .1f, 0.5f);
             //currentCable.GetComponent<Cable>().AdjustCable(this.gameObject);
-            material.color = currentCable.GetComponent<Cable>().material.color;
+            material.color = currentCable.GetComponent<Cable>().material.color * multiplierValue;
+            screenDisplay.AddjustDisplayScreen(material.color * multiplierValue);
             playerInteract.onMyHand = null;
         }
     }
