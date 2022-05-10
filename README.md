@@ -35,8 +35,7 @@
 - 15 - 65 yaş arası kullanıcılar
 
 ## Product Backlog URL
-
-[Miro Backlog Board](https://miro.com/app/board/uXjVOSSCpsI=/)
+https://trello.com/invite/b/p5jkP2tl/d1e9fe10797e842969822afe48cac4a8/sprint-1
 
 ---
 
