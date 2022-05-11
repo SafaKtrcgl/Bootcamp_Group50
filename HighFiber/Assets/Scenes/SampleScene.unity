@@ -1144,7 +1144,7 @@ GameObject:
   - component: {fileID: 1884831763}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1284,6 +1284,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1884831761}
     - target: {fileID: 643186443323512554, guid: 236166fa1b466324f861e7850c53ed40, type: 3}
+      propertyPath: playerInteract
+      value: 
+      objectReference: {fileID: 1884831761}
+    - target: {fileID: 643186443863236955, guid: 236166fa1b466324f861e7850c53ed40, type: 3}
       propertyPath: playerInteract
       value: 
       objectReference: {fileID: 1884831761}

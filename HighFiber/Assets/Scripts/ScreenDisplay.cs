@@ -14,8 +14,6 @@ public class ScreenDisplay : MonoBehaviour
 
     public void AddjustDisplayScreen(Color color)
     {
-        Debug.Log(material.color);
         material.color += color;
-        Debug.Log(material.color);
     }
 }
