@@ -23,19 +23,22 @@ public class HanoiTowers : Interractable
 
     public override void OnPlayerInterract()
     {
-        if (!_playerInteract.onMyHand)
+        if (available)
         {
-            _playerInteract.onMyHand = OnPLayerInteractToPop();
-            if (_playerInteract.onMyHand)
+            if (!_playerInteract.onMyHand)
             {
-                //_playerInteract.onMyHand.gameObject.GetComponent<BoxCollider>().enabled = false;
-                _playerInteract.onMyHand.transform.parent = _playerInteract.handPosition.transform;
+                _playerInteract.onMyHand = OnPLayerInteractToPop();
+                if (_playerInteract.onMyHand)
+                {
+                    //_playerInteract.onMyHand.gameObject.GetComponent<BoxCollider>().enabled = false;
+                    _playerInteract.onMyHand.transform.parent = _playerInteract.handPosition.transform;
+                }
             }
-        }
-        else
-        {
-            OnPlayerInteractToPush(_playerInteract.onMyHand);
-            _playerInteract.onMyHand = null;
+            else
+            {
+                OnPlayerInteractToPush(_playerInteract.onMyHand);
+                _playerInteract.onMyHand = null;
+            }
         }
     }
 

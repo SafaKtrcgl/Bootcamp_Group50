@@ -12,31 +12,42 @@ public class PlayerInteract : MonoBehaviour
     public GameObject onMyHand;
     private RaycastHit _hit;
     private float maxDistance = 3f;
-    private bool canInterract = false;
+    private int canInterract = 0;
 
     private void Update()
     {
         Ray ray = Camera.main.ViewportPointToRay(new Vector3(.5f, .5f, 0f));
         if (Physics.Raycast(ray, out _hit, maxDistance) && _hit.collider.CompareTag("Interractable"))
         {
-            if (!canInterract)
+            if (!_hit.collider.gameObject.GetComponent<Interractable>().available)
             {
-                clickIndicator.color = Color.white;
+                if (canInterract != 2)
+                {
+                    canInterract = 2;
+                    clickIndicator.color = Color.red;
+                }
             }
-            canInterract = true;
-            
-            if (Input.GetButtonDown("Fire1"))
+            else
             {
-                Interact();
+                if (canInterract != 1)
+                {
+                    canInterract = 1;
+                    clickIndicator.color = Color.white;
+                }
             }
         }
         else
         {
-            if (canInterract)
+            if (canInterract != 0)
             {
+                canInterract = 0;
                 clickIndicator.color = Color.black;
             }
-            canInterract = false;
+        }
+        
+        if (canInterract == 1 && Input.GetButtonDown("Fire1"))
+        {
+            Interact();
         }
     }
 

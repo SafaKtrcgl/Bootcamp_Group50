@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Interractable : MonoBehaviour
 {
-
+    [NonSerialized]public bool available = true;
     public virtual void OnPlayerInterract()
     {
         
