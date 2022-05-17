@@ -58,8 +58,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0100000002000000
+  location: 0100000001000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0100000001000000
 --- !u!212 &3371385028678161568
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -169,8 +170,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0100000001000000
+  location: 0200000001000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0200000001000000
 --- !u!212 &3371385028678161564
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -247,7 +249,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3371385027887540283}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.36, y: 0.55, z: 0.36}
+  m_LocalPosition: {x: 0.36, y: 0.55, z: -0.36}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 3371385028424210986}
@@ -324,8 +326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0000000001000000
+  location: 0200000000000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0200000000000000
 --- !u!212 &3371385028678161565
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -435,8 +438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0200000003000000
+  location: 0000000002000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0000000002000000
 --- !u!212 &3371385028678161571
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -515,7 +519,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3371385028043700763}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0.36, y: 0.55, z: -0.35999998}
+  m_LocalPosition: {x: 0.36, y: 0.55, z: 0.36}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.1}
   m_Children: []
   m_Father: {fileID: 3371385028424210986}
@@ -546,8 +550,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0000000000000000
+  location: 0300000003000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0300000003000000
 --- !u!212 &3371385028678161561
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -657,8 +662,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0300000001000000
+  location: 0200000003000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0200000003000000
 --- !u!212 &3371385028678161562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -768,8 +774,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0000000002000000
+  location: 0100000000000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0100000000000000
 --- !u!212 &3371385028678161569
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -884,6 +891,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   positionOfTheSpace: 0300000000000000
   space: {fileID: 3371385027887540283}
+  nodesArray:
+  - {fileID: 3371385029517512297}
+  - {fileID: 3371385029460235143}
+  - {fileID: 3371385027994641294}
+  - {fileID: 3371385028912840749}
+  - {fileID: 3371385028269947164}
+  - {fileID: 3371385027850972101}
+  - {fileID: 3371385029425285575}
+  - {fileID: 3371385028930523441}
+  - {fileID: 3371385027926995561}
+  - {fileID: 3371385027877229622}
+  - {fileID: 3371385029505268294}
+  - {fileID: 3371385028227048255}
+  - {fileID: 3371385028043700761}
+  - {fileID: 3371385029405536316}
+  - {fileID: 3371385029163059520}
 --- !u!33 &3371385028424210988
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -991,8 +1014,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0300000003000000
+  location: 0000000003000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0000000003000000
 --- !u!212 &3371385028678161570
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1102,8 +1126,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0300000002000000
+  location: 0100000003000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0100000003000000
 --- !u!212 &3371385028678161566
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1213,8 +1238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0200000000000000
+  location: 0300000002000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0300000002000000
 --- !u!212 &3371385028678161559
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1324,8 +1350,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0100000000000000
+  location: 0300000001000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0300000001000000
 --- !u!212 &3371385028678161560
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1435,8 +1462,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0200000002000000
+  location: 0100000002000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0100000002000000
 --- !u!212 &3371385028678161567
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1546,8 +1574,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0100000003000000
+  location: 0000000001000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0000000001000000
 --- !u!212 &3371385028678161572
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1657,8 +1686,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0200000001000000
+  location: 0200000002000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0200000002000000
 --- !u!212 &3371385028678161563
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1768,8 +1798,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a551359dd3142c249a32f792f672ce49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  location: 0000000003000000
+  location: 0000000000000000
   _fifteenPuzzle: {fileID: 3371385028424210987}
+  locationMeantToBe: 0000000000000000
 --- !u!212 &3371385028678161573
 SpriteRenderer:
   m_ObjectHideFlags: 0

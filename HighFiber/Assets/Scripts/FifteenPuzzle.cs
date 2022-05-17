@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.PlayerLoop;
 
@@ -7,6 +8,7 @@ public class FifteenPuzzle : MonoBehaviour
 {
     [SerializeField]private int[] positionOfTheSpace;
     [SerializeField] private GameObject space;
+    [SerializeField] private FifteenPuzzleNodes[] nodesArray = new FifteenPuzzleNodes[15];
 
     public void CheckAvailability(GameObject clickedObject, int[] clickLocation)
     {
@@ -20,7 +22,7 @@ public class FifteenPuzzle : MonoBehaviour
     private void SwapTiles(GameObject obj)
     {
         Vector3 temp = obj.transform.position;
-        obj.transform.position = space.transform.position;
+        obj.transform.DOMove(space.transform.position, 0.5f);
         space.transform.position = temp;
     }
 
@@ -29,5 +31,23 @@ public class FifteenPuzzle : MonoBehaviour
         int[] temp = obj.GetComponent<FifteenPuzzleNodes>().location;
         obj.GetComponent<FifteenPuzzleNodes>().location = positionOfTheSpace;
         positionOfTheSpace = temp;
+        CheckIfSolved();
+    }
+
+    private void CheckIfSolved()
+    {
+        for (int i = 0; i < nodesArray.Length; i++)
+        {
+            if (!nodesArray[i].IsInRightPlace())
+            {
+                return;
+            }
+        }
+
+        for (int i = 0; i < nodesArray.Length; i++)
+        {
+            nodesArray[i].available = false;
+            Debug.Log("Done!");
+        }
     }
 }
