@@ -71,10 +71,37 @@ Alınan kararlar:
 
 -**Diğer Notlar**:
 - N/A
+- 
 
 ---
 
 # Sprint 2
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+
+- **Puan tamamlama mantığı**: Bir önceki sprintte toplamda proje boyunca tamamlanması gereken puanın yanlış hesaplandığı fark edilmiştir. İlk sprint 230, 2.sprint 100 ve 3.sprint de 100 puan olmak üzere projenin toplam puanı 430 puan olarak belirlenmiştir.
+
+**Backlog düzeni ve Story seçimleri**: 
+-Backlog'umuz sprint başında yapılan toplantıda 2.sprintte tamamlanması gereken görevleri belirleyerek ve 1.sprintte yapılması plananıp yapılamayan işlere göre oluşturulmuştur.. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve işler bu bloklar kullanılarak takip edilmiştir. Yapılacak işlere öncelik sırasına göre karar verilmiştir.
+
+- **Daily Scrum**: Daily Scrum toplantılarının Discord, Whatsapp ve Google Meet üzerinden yapılmasına karar verilmiştir. Word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
+
+- **Sprint board update**: Sprint board screenshotları: 
+
+
+- **Ürün Durumu**: Ekran görüntüleri:
+
+
+**Sprint Review**: 
+Alınan kararlar:  
+   -Ürünlerin çalışma ve test aşamalarında bir problem yaşanmamıştır. 
+   -Bu sprintte oyunun design genre’sına karar verilecek ve 2d sketchler üzerinden 3d tasarıma başlanacaktı ancak gerçekleştiremedik. Üçüncü sprintte bunların tamamlanmasına karar verildi.
+   -2.sprintte olduğu gibi 3. sprintte de environment ve level tasarımını hızlandırıp, kendi modellerimizle donatmak için hızlanılması gerektiği konuşulmuştur.    
+   Sprint Review katılımcıları: Ayşenur Şeyda Bilgü, Elif Yetkin, Emine Beyza Eroğlu, Mehmet Safa Katırcıoğlu, Yavuz Güleşen.
+   
+- **Sprint Retrospective:**
+  - Project management programlarının daha efektif kullanmalı.
+  - İş/ oyun yoğunluğu sebebiyle oyuna çok zaman ayıramıyoruz.Oyun için zamanımızı daha efektif kullanıp, oyuna daha fazla zaman ayrılmalı.
+  - Daha hızlı karar vermeli.
 
 
 ---
