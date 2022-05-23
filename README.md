@@ -36,6 +36,7 @@
 
 ## Product Backlog URL
 https://trello.com/invite/b/p5jkP2tl/d1e9fe10797e842969822afe48cac4a8/sprint-1
+https://trello.com/invite/b/wjaoCHrO/f37297c6e1ee1ccad614119dc288090d/sprint-2
 
 ---
 
@@ -85,7 +86,9 @@ Alınan kararlar:
 
 - **Daily Scrum**: Daily Scrum toplantılarının Discord, Whatsapp ve Google Meet üzerinden yapılmasına karar verilmiştir. Word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshotları ve link:
+- https://trello.com/invite/b/wjaoCHrO/f37297c6e1ee1ccad614119dc288090d/sprint-2
+-  
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
