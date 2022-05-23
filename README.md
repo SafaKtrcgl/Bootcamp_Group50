@@ -108,8 +108,8 @@ Alınan kararlar:
    -2.sprintte olduğu gibi 3. sprintte de environment ve level tasarımını hızlandırıp, kendi modellerimizle donatmak için hızlanılması gerektiği konuşulmuştur.    
    Sprint Review katılımcıları: Ayşenur Şeyda Bilgü, Elif Yetkin, Emine Beyza Eroğlu, Mehmet Safa Katırcıoğlu, Yavuz Güleşen.
    
-- **Sprint Retrospective:**
-- 
+ **Sprint Retrospective:**
+
   - Project management programlarının daha efektif kullanmalı.
   - İş/ oyun yoğunluğu sebebiyle oyuna çok zaman ayıramıyoruz.Oyun için zamanımızı daha efektif kullanıp, oyuna daha fazla zaman ayrılmalı.
   - Daha hızlı karar vermeli.
