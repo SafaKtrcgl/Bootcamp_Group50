@@ -55,7 +55,6 @@ https://trello.com/invite/b/wjaoCHrO/f37297c6e1ee1ccad614119dc288090d/sprint-2
 
 - **Sprint board update**: Sprint board screenshotları: 
 (https://docs.google.com/document/d/1Xj4P2UkRsksIc9sdmn0tkVmRRNyHX6kb/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true)
-![sprint2trello](https://user-images.githubusercontent.com/103963591/169894132-61f88b5b-c09f-4efc-a124-ac0b17c92b8b.png)
 
 - **Ürün Durumu**: Ekran görüntüleri:
 (https://docs.google.com/document/d/1-9IxhlkLTkdtL2B224Fhd5KfFmLvLQxq/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true)
@@ -89,7 +88,7 @@ Alınan kararlar:
 
 - **Sprint board update**: Sprint board screenshotları ve link:
 - https://trello.com/invite/b/wjaoCHrO/f37297c6e1ee1ccad614119dc288090d/sprint-2
--  
+- ![sprint2trello](https://user-images.githubusercontent.com/103963591/169894132-61f88b5b-c09f-4efc-a124-ac0b17c92b8b.png)  
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
