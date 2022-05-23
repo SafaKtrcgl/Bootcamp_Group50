@@ -89,6 +89,7 @@ Alınan kararlar:
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
+- ![WhatsApp Image 2022-05-23 at 22 13 45](https://user-images.githubusercontent.com/103963591/169892743-91be8d76-f2af-4728-958c-2454264cd9ed.jpeg)
 
 
 **Sprint Review**: 
