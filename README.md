@@ -82,20 +82,20 @@ Alınan kararlar:
 - **Puan tamamlama mantığı**: Bir önceki sprintte toplamda proje boyunca tamamlanması gereken puanın yanlış hesaplandığı fark edilmiştir. İlk sprint 230, 2.sprint 100 ve 3.sprint de 100 puan olmak üzere projenin toplam puanı 430 puan olarak belirlenmiştir.
 
 **Backlog düzeni ve Story seçimleri**: 
--Backlog'umuz sprint başında yapılan toplantıda 2.sprintte tamamlanması gereken görevleri belirleyerek ve 1.sprintte yapılması plananıp yapılamayan işlere göre oluşturulmuştur.. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve işler bu bloklar kullanılarak takip edilmiştir. Yapılacak işlere öncelik sırasına göre karar verilmiştir.
+ Backlog'umuz sprint başında yapılan toplantıda 2.sprintte tamamlanması gereken görevleri belirleyerek ve 1.sprintte yapılması plananıp yapılamayan işlere göre oluşturulmuştur.. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve işler bu bloklar kullanılarak takip edilmiştir. Yapılacak işlere öncelik sırasına göre karar verilmiştir.
 
 - **Daily Scrum**: Daily Scrum toplantılarının Discord, Whatsapp ve Google Meet üzerinden yapılmasına karar verilmiştir. Ayrıca bu sprintte telefon görüşmesi ile de toplantılar yapılmıştır. Tüm bunlar word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
-- https://docs.google.com/document/d/1cf2UBkDYFUogpTWMgsvjU-T3GvicnxxF/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true
+ https://docs.google.com/document/d/1cf2UBkDYFUogpTWMgsvjU-T3GvicnxxF/edit?usp=sharing&ouid=106093366023151313628&rtpof=true&sd=true
 
 - **Sprint board update**: Sprint board screenshotları ve link:
-- https://trello.com/invite/b/wjaoCHrO/f37297c6e1ee1ccad614119dc288090d/sprint-2
-- ![sprint2trello](https://user-images.githubusercontent.com/103963591/169894132-61f88b5b-c09f-4efc-a124-ac0b17c92b8b.png)  
+ https://trello.com/invite/b/wjaoCHrO/f37297c6e1ee1ccad614119dc288090d/sprint-2
+ ![sprint2trello](https://user-images.githubusercontent.com/103963591/169894132-61f88b5b-c09f-4efc-a124-ac0b17c92b8b.png)  
 
 
 - **Ürün Durumu**: Ekran görüntüleri:
-- ![WhatsApp Image 2022-05-23 at 22 13 45](https://user-images.githubusercontent.com/103963591/169892743-91be8d76-f2af-4728-958c-2454264cd9ed.jpeg)
-- ![WhatsApp Image 2022-05-23 at 22 13 45 (2)](https://user-images.githubusercontent.com/103963591/169893100-1eaa4884-376f-4c67-bf35-dca0041faf1e.jpeg)
-- ![WhatsApp Image 2022-05-23 at 22 13 45 (1)](https://user-images.githubusercontent.com/103963591/169893128-71267431-7546-45fb-a487-66cb8e98009d.jpeg)
+ ![WhatsApp Image 2022-05-23 at 22 13 45](https://user-images.githubusercontent.com/103963591/169892743-91be8d76-f2af-4728-958c-2454264cd9ed.jpeg)
+ ![WhatsApp Image 2022-05-23 at 22 13 45 (2)](https://user-images.githubusercontent.com/103963591/169893100-1eaa4884-376f-4c67-bf35-dca0041faf1e.jpeg)
+ ![WhatsApp Image 2022-05-23 at 22 13 45 (1)](https://user-images.githubusercontent.com/103963591/169893128-71267431-7546-45fb-a487-66cb8e98009d.jpeg)
 
 
 
