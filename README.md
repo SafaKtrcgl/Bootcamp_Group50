@@ -101,6 +101,7 @@ Alınan kararlar:
 
 **Sprint Review**: 
 Alınan kararlar:  
+
    -Ürünlerin çalışma ve test aşamalarında bir problem yaşanmamıştır. 
    -Bu sprintte oyunun design genre’sına karar verilecek ve 2d sketchler üzerinden 3d tasarıma başlanacaktı ancak gerçekleştiremedik. Üçüncü sprintte bunların tamamlanmasına karar verildi.
    
@@ -108,6 +109,7 @@ Alınan kararlar:
    Sprint Review katılımcıları: Ayşenur Şeyda Bilgü, Elif Yetkin, Emine Beyza Eroğlu, Mehmet Safa Katırcıoğlu, Yavuz Güleşen.
    
 - **Sprint Retrospective:**
+- 
   - Project management programlarının daha efektif kullanmalı.
   - İş/ oyun yoğunluğu sebebiyle oyuna çok zaman ayıramıyoruz.Oyun için zamanımızı daha efektif kullanıp, oyuna daha fazla zaman ayrılmalı.
   - Daha hızlı karar vermeli.
