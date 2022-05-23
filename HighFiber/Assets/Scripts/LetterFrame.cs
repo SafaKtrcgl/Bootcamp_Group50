@@ -12,16 +12,23 @@ public class LetterFrame : Interractable
 
     public override void OnPlayerInterract()
     {
-        Letter trialLetter;
-        _playerInteract.onMyHand.TryGetComponent(out trialLetter);
-        if (trialLetter == myLetter.GetComponent<Letter>())
+        if (_playerInteract.onMyHand)
         {
-            trialLetter.CloseUpCanvas();
-            available = false;
-            _playerInteract.onMyHand.transform.parent = null;
-            _playerInteract.onMyHand.gameObject.transform.DOMove(transform.position, 0.5f);
-            _playerInteract.onMyHand.gameObject.transform.DORotate(rotation, 0.5f);
-            _playerInteract.onMyHand = null;
+            Letter trialLetter;
+            _playerInteract.onMyHand.TryGetComponent(out trialLetter);
+            if (trialLetter == myLetter.GetComponent<Letter>())
+            {
+                trialLetter.CloseUpCanvas();
+                available = false;
+                _playerInteract.onMyHand.transform.parent = null;
+                _playerInteract.onMyHand.gameObject.transform.DOMove(transform.position, 0.5f);
+                _playerInteract.onMyHand.gameObject.transform.DORotate(rotation, 0.5f);
+                _playerInteract.onMyHand = null;
+            }
+            else
+            {
+                Camera.main.transform.DOPunchRotation(Camera.main.transform.forward, 1f);
+            }
         }
         else
         {

@@ -8,17 +8,20 @@ public class InputManager : MonoBehaviour
     [SerializeField] private PlayerInteract _playerInteract;
     private void Update()
     {
-        Letter tempLetter;
-        _playerInteract.onMyHand.TryGetComponent(out tempLetter);
-        if (Input.GetKeyDown(KeyCode.Tab) && tempLetter)
+        if (_playerInteract.onMyHand)
         {
-            if (tempLetter.isCanvasOpen)
+            Letter tempLetter;
+            _playerInteract.onMyHand.TryGetComponent(out tempLetter);
+            if (Input.GetKeyDown(KeyCode.Tab) && tempLetter)
             {
-                tempLetter.CloseUpCanvas();
-            }
-            else
-            {
-                tempLetter.OpenUpCanvas();
+                if (tempLetter.isCanvasOpen)
+                {
+                    tempLetter.CloseUpCanvas();
+                }
+                else
+                {
+                    tempLetter.OpenUpCanvas();
+                }
             }
         }
     }
