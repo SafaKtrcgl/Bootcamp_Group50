@@ -72,6 +72,10 @@ public class SimonSaysManager : MonoBehaviour
             }
         }
         Debug.Log("True");
+        foreach (GameObject light in simonSaysLights)
+        {
+            light.GetComponentInParent<SimonSaysNodes>().available = false;
+        }
         isSolved = true;
     }
 }
