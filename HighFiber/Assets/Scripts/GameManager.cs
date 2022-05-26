@@ -6,6 +6,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
+    [SerializeField] private GameObject a4UI;
     private bool _isGameActive = true;
     
     private void Update()
@@ -16,12 +17,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void OnEscPressed(bool gameState)
+    public void OnEscPressed(bool gameState)
     {
         if (gameState)
         {
             Time.timeScale = 0;
             _isGameActive = false;
+            a4UI.SetActive(false);
             pauseMenu.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
         }
