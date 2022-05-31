@@ -68,6 +68,9 @@ public class SimonSaysManager : MonoBehaviour
             if (usersPattern[i] != _truePattern[i])
             {
                 Debug.Log("Wrong");
+                Array.Clear(usersPattern, 0, usersPattern.Length);
+                Array.Clear(_truePattern, 0, _truePattern.Length);
+                userInputIndex = 0;
                 return;
             }
         }
