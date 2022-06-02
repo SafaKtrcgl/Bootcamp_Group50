@@ -6,12 +6,13 @@ using Random = UnityEngine.Random;
 
 public class SimonSaysManager : MonoBehaviour
 {
+    [SerializeField] private GameManager gameManager;
     [SerializeField] private GameObject[] simonSaysLights;
     private int _maxLengthOfPattern = 4;
     private int _currentLengthOfPattern = 0;
     private int[] _truePattern = new int[4];
     [NonSerialized] public int[] usersPattern = new int[4];
-    public int userInputIndex;
+    [NonSerialized]public int userInputIndex;
     private bool isSolved = false;
 
 
@@ -25,6 +26,8 @@ public class SimonSaysManager : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        userInputIndex = 0;
+        Array.Clear(usersPattern, 0, usersPattern.Length);
         ResetPattern();
     }
 
@@ -64,21 +67,24 @@ public class SimonSaysManager : MonoBehaviour
     {
         for (int i = 0; i < _truePattern.Length; i++)
         {
-            Debug.Log(usersPattern[i] + " : " + _truePattern[i]);
             if (usersPattern[i] != _truePattern[i])
             {
-                Debug.Log("Wrong");
                 Array.Clear(usersPattern, 0, usersPattern.Length);
                 Array.Clear(_truePattern, 0, _truePattern.Length);
                 userInputIndex = 0;
                 return;
             }
         }
-        Debug.Log("True");
+        SimonsDone();
+    }
+
+    private void SimonsDone()
+    {
+        isSolved = true;
         foreach (GameObject light in simonSaysLights)
         {
             light.GetComponentInParent<SimonSaysNodes>().available = false;
         }
-        isSolved = true;
+        gameManager.OnPuzzleComplete();
     }
 }

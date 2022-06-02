@@ -49,6 +49,10 @@ public class PlayerInteract : MonoBehaviour
         {
             Interact();
         }
+        else if (canInterract == 2 && Input.GetButtonDown("Fire1"))
+        {
+            Camera.main.transform.DOPunchRotation(Camera.main.transform.forward, 1f);
+        }
     }
 
     private void LateUpdate()

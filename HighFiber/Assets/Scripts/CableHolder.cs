@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class CableHolder : Interractable
 {
+    [SerializeField] private CableUpdateManager cableUpdateManager;
     [SerializeField]private float multiplierValue;
     public GameObject currentCable = null;
     [SerializeField] private PlayerInteract playerInteract;
@@ -42,6 +43,7 @@ public class CableHolder : Interractable
             material.color = currentCable.GetComponent<Cable>().material.color * multiplierValue;
             screenDisplay.AddjustDisplayScreen(material.color * multiplierValue);
             playerInteract.onMyHand = null;
+            cableUpdateManager.CheckIfDone();
         }
     }
 }

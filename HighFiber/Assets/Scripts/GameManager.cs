@@ -7,7 +7,9 @@ public class GameManager : MonoBehaviour
 {
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject a4UI;
+    [SerializeField] private Interractable[] doorHandles;
     private bool _isGameActive = true;
+    private int currentLevel = 0;
     
     private void Update()
     {
@@ -34,5 +36,12 @@ public class GameManager : MonoBehaviour
             pauseMenu.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
         }
+    }
+
+    public void OnPuzzleComplete()
+    {
+        doorHandles[currentLevel].available = true;
+        currentLevel++;
+        Debug.Log("**** YAY");
     }
 }

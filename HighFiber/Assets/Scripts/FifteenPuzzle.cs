@@ -6,6 +6,7 @@ using UnityEngine.PlayerLoop;
 
 public class FifteenPuzzle : MonoBehaviour
 {
+    [SerializeField] private GameManager gameManager;
     [SerializeField]private int[] positionOfTheSpace;
     [SerializeField] private GameObject space;
     [SerializeField] private FifteenPuzzleNodes[] nodesArray = new FifteenPuzzleNodes[15];
@@ -44,10 +45,15 @@ public class FifteenPuzzle : MonoBehaviour
             }
         }
 
+        FifteenPuzzleDone();
+    }
+
+    private void FifteenPuzzleDone()
+    {
         for (int i = 0; i < nodesArray.Length; i++)
         {
             nodesArray[i].available = false;
-            Debug.Log("Done!");
         }
+        gameManager.OnPuzzleComplete();
     }
 }

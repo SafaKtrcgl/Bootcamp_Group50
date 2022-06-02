@@ -11,6 +11,7 @@ public class HanoiTowers : Interractable
     private PlayerInteract _playerInteract;
     private Vector3 positionOffSetPerBook = new Vector3(0.07f, 0f, 0f);
     private Vector3 bookPosition = new Vector3(-0.45f, -0.05f, -0.1f);
+    [SerializeField] private Shelf shelf;
 
     private void Start()
     {
@@ -38,6 +39,7 @@ public class HanoiTowers : Interractable
             {
                 OnPlayerInteractToPush(_playerInteract.onMyHand);
                 _playerInteract.onMyHand = null;
+                shelf.CheckIfDone();
             }
         }
     }
