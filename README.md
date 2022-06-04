@@ -132,6 +132,8 @@ Alınan kararlar:
 ![WhatsApp Image 2022-06-04 at 21 06 26](https://user-images.githubusercontent.com/103963591/172020070-d4f5cb20-ed18-42a8-bd58-bb68c63e776c.jpeg)
 ![WhatsApp Image 2022-06-04 at 21 06 26 (2)](https://user-images.githubusercontent.com/103963591/172020079-e1bccc1c-aeb1-46b1-8ce1-e1be715ee842.jpeg)
 ![WhatsApp Image 2022-06-04 at 21 06 26 (1)](https://user-images.githubusercontent.com/103963591/172020089-e81dcbe1-94fb-401d-a047-4a44ab22dcfa.jpeg)
+![WhatsApp Image 2022-06-04 at 22 26 03 (1)](https://user-images.githubusercontent.com/103963591/172028454-2b1b0afe-253f-4349-8b3e-0e85d62775d9.jpeg)
+
 
 - **Sprint Review**: 
 
