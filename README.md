@@ -128,6 +128,9 @@ Alınan kararlar:
 
 - **Sprint board update**: Sprint board screenshotları ve link:
 - **Ürün Durumu**: Ekran görüntüleri:
+![WhatsApp Image 2022-06-04 at 20 54 03 (1)](https://user-images.githubusercontent.com/103963591/172019710-c9585d51-2a82-4a8d-823b-bb54d472f3b7.jpeg)
+![WhatsApp Image 2022-06-04 at 20 54 03 (2)](https://user-images.githubusercontent.com/103963591/172019717-de493ec6-abb6-4600-8b5c-2592f47adcb9.jpeg)
+![WhatsApp Image 2022-06-04 at 20 54 03](https://user-images.githubusercontent.com/103963591/172019723-e21f2153-20fb-46bc-b14f-619aa0d2d1c1.jpeg)
 
 - **Sprint Review**: 
 
