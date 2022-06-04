@@ -120,3 +120,25 @@ Alınan kararlar:
 
 # Sprint 3
 ---
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Puan tamamlama mantığı**: Oyunun  teslimi için gereken son görevler belirlenmiş ve 9 göreve 10 puan, oyun videosu görevine ise önemi sebebi ile 20 puan verilmiştir. 3.sprintteki görevler toplamda 100 puandan etmektedir.
+- **Backlog düzeni ve Story seçimleri**:  
+ Backlog'umuz sprint başında yapılan toplantıda 3.sprintte tamamlanması gereken ve oyunun tamamlanması için gereken görevleri belirleyerek ve 2.sprintte yapılması plananıp yapılamayan görevlere göre oluşturulmuştur. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve görevler bu bloklar kullanılarak takip edilmiştir. Yapılacaklara, öncelik sırasına göre karar verilmiştir.
+- **Daily Scrum**: Daily Scrum toplantılarının Discord, Google Meet  ve Whatsapp üzerinden yapılmasına karar verilmiştir. Tüm bunlar word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
+
+- **Sprint board update**: Sprint board screenshotları ve link:
+- **Ürün Durumu**: Ekran görüntüleri:
+
+- **Sprint Review**: 
+
+  Alınan kararlar:  
+
+   -Ürünlerin çalışma ve test aşamalarında bir problem yaşanmamıştır. 
+   -Logo tasarımında perspektifte sorun yaşanmış ancak game desinger arkadaşımızın yardımı ile bu sorunun üstesinden gelinmiştir.
+    Sprint Review katılımcıları: Ayşenur Şeyda Bilgü, Elif Yetkin, Emine Beyza Eroğlu, Mehmet Safa Katırcıoğlu, Yavuz Güleşen.
+   
+
+- **Sprint Retrospective:**
+  - Project management programlarının daha efektif kullanmalı.
+  - Geliştirme ekibi arasındaki iletişim artmalı.
+  - İş/Okul/Akademi yoğunluğu dengelenmeli ve görevlere daha fazla zaman ayrılmalı.
