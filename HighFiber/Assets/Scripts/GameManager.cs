@@ -1,16 +1,20 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    [SerializeField] private Text solvedMenu;
+
     [SerializeField] private GameObject pauseMenu;
     [SerializeField] private GameObject a4UI;
     [SerializeField] private Interractable[] doorHandles;
     private bool _isGameActive = true;
     private int currentLevel = 0;
-    
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -42,6 +46,14 @@ public class GameManager : MonoBehaviour
     {
         doorHandles[currentLevel].available = true;
         currentLevel++;
-        Debug.Log("**** YAY");
+        PuzzleCompleteUI();
+    }
+
+    private void PuzzleCompleteUI()
+    {
+        Sequence solvedSequence = DOTween.Sequence();
+        solvedSequence.Append(solvedMenu.DOFade(1f, 1f));
+        solvedSequence.Append(solvedMenu.DOFade(0f, .5f));
+        solvedSequence.Play();
     }
 }

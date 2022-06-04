@@ -9,6 +9,7 @@ public class LetterFrame : Interractable
     [SerializeField] private PlayerInteract _playerInteract;
     //[SerializeField] private Vector3 position;
     [SerializeField] private Vector3 rotation;
+    [SerializeField] private LetterPuzzle letterPuzzle;
 
     public override void OnPlayerInterract()
     {
@@ -24,6 +25,7 @@ public class LetterFrame : Interractable
                 _playerInteract.onMyHand.gameObject.transform.DOMove(transform.position, 0.5f);
                 _playerInteract.onMyHand.gameObject.transform.DORotate(rotation, 0.5f);
                 _playerInteract.onMyHand = null;
+                letterPuzzle.CheckIfDone();
             }
             else
             {
