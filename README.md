@@ -119,5 +119,4 @@ Alınan kararlar:
 ---
 
 # Sprint 3
-
 ---
