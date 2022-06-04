@@ -127,6 +127,7 @@ Alınan kararlar:
 - **Daily Scrum**: Daily Scrum toplantılarının Discord, Google Meet  ve Whatsapp üzerinden yapılmasına karar verilmiştir. Tüm bunlar word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
 
 - **Sprint board update**: Sprint board screenshotları ve link:
+![trello](https://user-images.githubusercontent.com/103963591/172020142-b77fd811-f96b-4101-9f1b-45dfa746bb1f.png)
 - **Ürün Durumu**: Ekran görüntüleri:
 ![WhatsApp Image 2022-06-04 at 21 06 26](https://user-images.githubusercontent.com/103963591/172020070-d4f5cb20-ed18-42a8-bd58-bb68c63e776c.jpeg)
 ![WhatsApp Image 2022-06-04 at 21 06 26 (2)](https://user-images.githubusercontent.com/103963591/172020079-e1bccc1c-aeb1-46b1-8ce1-e1be715ee842.jpeg)
