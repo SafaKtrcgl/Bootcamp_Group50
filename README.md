@@ -119,5 +119,30 @@ Alınan kararlar:
 ---
 
 # Sprint 3
-
 ---
+- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Puan tamamlama mantığı**: Oyunun  teslimi için gereken son görevler belirlenmiş ve 9 göreve 10 puan, oyun videosu görevine ise önemi sebebi ile 20 puan verilmiştir. 3.sprintteki görevler toplamda 100 puandan etmektedir.
+- **Backlog düzeni ve Story seçimleri**:  
+ Backlog'umuz sprint başında yapılan toplantıda 3.sprintte tamamlanması gereken ve oyunun tamamlanması için gereken görevleri belirleyerek ve 2.sprintte yapılması plananıp yapılamayan görevlere göre oluşturulmuştur. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve görevler bu bloklar kullanılarak takip edilmiştir. Yapılacaklara, öncelik sırasına göre karar verilmiştir.
+- **Daily Scrum**: Daily Scrum toplantılarının Discord, Google Meet  ve Whatsapp üzerinden yapılmasına karar verilmiştir. Tüm bunlar word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
+
+- **Sprint board update**: Sprint board screenshotları ve link:
+![trello](https://user-images.githubusercontent.com/103963591/172020142-b77fd811-f96b-4101-9f1b-45dfa746bb1f.png)
+- **Ürün Durumu**: Ekran görüntüleri:
+![WhatsApp Image 2022-06-04 at 21 06 26](https://user-images.githubusercontent.com/103963591/172020070-d4f5cb20-ed18-42a8-bd58-bb68c63e776c.jpeg)
+![WhatsApp Image 2022-06-04 at 21 06 26 (2)](https://user-images.githubusercontent.com/103963591/172020079-e1bccc1c-aeb1-46b1-8ce1-e1be715ee842.jpeg)
+![WhatsApp Image 2022-06-04 at 21 06 26 (1)](https://user-images.githubusercontent.com/103963591/172020089-e81dcbe1-94fb-401d-a047-4a44ab22dcfa.jpeg)
+
+- **Sprint Review**: 
+
+  Alınan kararlar:  
+
+   -Ürünlerin çalışma ve test aşamalarında bir problem yaşanmamıştır. 
+   -Logo tasarımında perspektifte sorun yaşanmış ancak game desinger arkadaşımızın yardımı ile bu sorunun üstesinden gelinmiştir.
+    Sprint Review katılımcıları: Ayşenur Şeyda Bilgü, Elif Yetkin, Emine Beyza Eroğlu, Mehmet Safa Katırcıoğlu, Yavuz Güleşen.
+   
+
+- **Sprint Retrospective:**
+  - Project management programlarının daha efektif kullanmalı.
+  - Geliştirme ekibi arasındaki iletişim artmalı.
+  - İş/Okul/Akademi yoğunluğu dengelenmeli ve görevlere daha fazla zaman ayrılmalı.
