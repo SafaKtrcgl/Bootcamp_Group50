@@ -7,10 +7,10 @@
 ## Takım Elemanları
 
 - Ayşenur Şeyda Bilgü: Product Owner
-- Elif Yetkin: -
+- Elif Yetkin: Artist
 - Emine Beyza Eroğlu: Scrum Master
 - Mehmet Safa Katırcıoğlu: Developer
-- Yavuz Güleşen: -
+- Yavuz Güleşen: Developer
 
 ## Ürün İsmi
 
