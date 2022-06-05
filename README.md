@@ -125,7 +125,7 @@ Alınan kararlar:
 - **Backlog düzeni ve Story seçimleri**:  
  Backlog'umuz sprint başında yapılan toplantıda 3.sprintte tamamlanması gereken ve oyunun tamamlanması için gereken görevleri belirleyerek ve 2.sprintte yapılması plananıp yapılamayan görevlere göre oluşturulmuştur. Trello panosunda stories, to do, in progress, testing ve done blokları oluşturulmuş ve görevler bu bloklar kullanılarak takip edilmiştir. Yapılacaklara, öncelik sırasına göre karar verilmiştir.
 - **Daily Scrum**: Daily Scrum toplantılarının Discord, Google Meet  ve Whatsapp üzerinden yapılmasına karar verilmiştir. Tüm bunlar word dosyası olarak düzenlenmiş ve Google Drive linki aşağıya eklenmiştir: 
-
+(https://docs.google.com/document/d/1J076Ua3weQ0txnp2O3A2l7qhJXCKqh28/)
 - **Sprint board update**: Sprint board screenshotları ve link:
 ![trello](https://user-images.githubusercontent.com/103963591/172020142-b77fd811-f96b-4101-9f1b-45dfa746bb1f.png)
 - **Ürün Durumu**: Ekran görüntüleri:
